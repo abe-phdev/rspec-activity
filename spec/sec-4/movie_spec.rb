@@ -19,7 +19,6 @@ class Actor
   def light_on_fire
     false
   end
-  
 end
 
 class Movie
@@ -41,4 +40,3 @@ end
 actor = Actor.new('Timbee')
 movie = Movie.new(actor)
 movie.start_shooting
-
